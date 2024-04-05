@@ -1,26 +1,31 @@
-# :checkered_flag: NOME DO PROJETO
+# :checkered_flag: I'm Hiring
 
-Breve descrição do que o seu projeto faz.
+Plataforma que lista vagas de empregos disponiveis, permitindo publicação de vagas e interação através de comentários.
 
 ## :technologist: Membros da equipe
 
-Matrícula, nome e curso dos participantes.
+Antonio Glaybson Melo Teofilo, 539256, Ciência da Computação
 
 ## :people_holding_hands: Papéis ou tipos de usuário da aplicação
 
-Informe aqui os tipos de usuário que irão interagir com a aplicação. Ex: administrador, locador, locatario, usuário não logado.
+* Usuário autenticado
+* Usuário não autenticado
+* Administrador
 
-> Tenha em mente que obrigatoriamente a aplicação deve possuir funcionalidades acessíveis a todos os tipos de usuário e outra funcionalidades restritas a certos tipos de usuários.
+<!-- Tenha em mente que obrigatoriamente a aplicação deve possuir funcionalidades acessíveis a todos os tipos de usuário e outra funcionalidades restritas a certos tipos de usuários.-->
 
 ## :spiral_calendar: Entidades ou tabelas do sistema
 
-Liste as principais entidades do sistema.
+* Usuário
+* Vaga
+* Empresa
+* Comentário
 
 ## :triangular_flag_on_post:	 Principais funcionalidades da aplicação
 
-Descreve ou liste brevemente as principais funcionalidades da aplicação que será desenvolvida. Destaque a funcionalidades que serão acessévies a todos os usuários e aquelas restriras a usuários logados.
-
-
+* Usuário não autenticado pode ver as vagas e os comentários feitos por usuários autenticados.
+* Usuário autenticado pode listar as vagas e seus detalhes, assim como usuários não autenticados. Além disso, eles podem adicionar empresas, criar novas vagas e escrever comentários.
+* O adminstrador do sistema tem permissões especiais para gerenciar usuários e moderar conteúdo tanto das vagas quanto dos comentários.
 ----
 
 :warning::warning::warning: As informações a seguir devem ser enviadas juntamente com a versão final do projeto. :warning::warning::warning:
